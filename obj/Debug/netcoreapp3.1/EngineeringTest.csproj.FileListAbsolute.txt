@@ -1,0 +1,17 @@
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\EngineeringTest.exe
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\EngineeringTest.deps.json
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\EngineeringTest.runtimeconfig.json
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\EngineeringTest.runtimeconfig.dev.json
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\EngineeringTest.dll
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\EngineeringTest.pdb
+C:\Users\kurribh\source\repos\EngineeringTest\obj\Debug\netcoreapp3.1\EngineeringTest.csprojAssemblyReference.cache
+C:\Users\kurribh\source\repos\EngineeringTest\obj\Debug\netcoreapp3.1\EngineeringTest.AssemblyInfoInputs.cache
+C:\Users\kurribh\source\repos\EngineeringTest\obj\Debug\netcoreapp3.1\EngineeringTest.AssemblyInfo.cs
+C:\Users\kurribh\source\repos\EngineeringTest\obj\Debug\netcoreapp3.1\EngineeringTest.dll
+C:\Users\kurribh\source\repos\EngineeringTest\obj\Debug\netcoreapp3.1\EngineeringTest.pdb
+C:\Users\kurribh\source\repos\EngineeringTest\obj\Debug\netcoreapp3.1\EngineeringTest.genruntimeconfig.cache
+C:\Users\kurribh\source\repos\EngineeringTest\obj\Debug\netcoreapp3.1\EngineeringTest.csproj.CopyComplete
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\LumenWorks.Framework.IO.dll
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\System.IO.Abstractions.dll
+C:\Users\kurribh\source\repos\EngineeringTest\bin\Debug\netcoreapp3.1\System.IO.Abstractions.TestingHelpers.dll
+C:\Users\kurribh\source\repos\EngineeringTest\obj\Debug\netcoreapp3.1\EngineeringTest.csproj.CoreCompileInputs.cache

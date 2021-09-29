@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "VAUd1sUAdfqesf11sD7WsTG030cxyCIl/IaA5PHMsiPEPOqQZfoXjSHoHwk11Io4pA0Ht1U4UNsGL01g54hzDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kurribh\\source\\repos\\EngineeringTest\\EngineeringTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kurribh\\.nuget\\packages\\lumenworkscsvreader\\4.0.0\\lumenworkscsvreader.4.0.0.nupkg.sha512",
+    "C:\\Users\\kurribh\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\kurribh\\.nuget\\packages\\system.io.abstractions\\13.2.47\\system.io.abstractions.13.2.47.nupkg.sha512",
+    "C:\\Users\\kurribh\\.nuget\\packages\\system.io.abstractions.testinghelpers\\13.2.47\\system.io.abstractions.testinghelpers.13.2.47.nupkg.sha512",
+    "C:\\Users\\kurribh\\.nuget\\packages\\system.io.filesystem.accesscontrol\\4.7.0\\system.io.filesystem.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\kurribh\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\kurribh\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
