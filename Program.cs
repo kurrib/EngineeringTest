@@ -10,14 +10,15 @@ namespace EngineeringTest
 {
     class Program
     {
+        public static readonly string FileFolderName = "Engineering Test Files";
+        public static readonly string OutputFile = "Combined.csv";
         static void Main(string[] args)
-        {
-            
-            string rootPath = @"C:\Users\kurribh\source\repos\EngineeringTest\Engineering Test Files";
-            string outputFileName = "Combined.csv";
+        {           
+
+            string rootPath = new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName + "\\" + FileFolderName;            
             var fileSystemProcessor = new FileSystemProcessor();
 
-            fileSystemProcessor.ProcessFiles(rootPath, outputFileName);
+            fileSystemProcessor.ProcessFiles(rootPath, OutputFile);
 
             Console.WriteLine("File processing completed!");
             Console.ReadLine();
