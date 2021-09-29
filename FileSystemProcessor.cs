@@ -23,16 +23,18 @@ namespace EngineeringTest
         public readonly string columnName = "Source IP";
         public void ProcessFiles(string path, string outputFileName)
         {
+            // This method returns collection of unique values and file names
             var results = ReadValues(path, outputFileName);
 
             string[] paths = { path, outputFileName };
+
+            // Write values to output file
             string outputFilePath = Path.Combine(paths);
 
             WriteToCsv(results, outputFilePath);
         }
         public List<Result> ReadValues(string path, string outputFileName)
-        {
-            //var files = Directory.GetFiles(path);
+        {            
             var files = _filesystem.Directory.GetFiles(path);
 
             if (files.Length == 0)
@@ -48,9 +50,12 @@ namespace EngineeringTest
                 using (var csvReader = new CsvReader(new StreamReader(_filesystem.File.OpenRead(file)), true))
                 {
                     string rawFileName = Path.GetFileNameWithoutExtension(file);
+                    // Remove digits in filename
                     var fileName = Regex.Replace(rawFileName, @"[\d-]", string.Empty);
+
                     var outputFileNameWithoutExt = Path.GetFileNameWithoutExtension(outputFileName);
 
+                    // If file name is output file skip the iteration
                     if (fileName.ToUpper() == outputFileNameWithoutExt.ToUpper()) continue;
 
                     csvTable.Load(csvReader);                    
@@ -64,6 +69,7 @@ namespace EngineeringTest
                     }
 
                     var ips = fileSystemModal.Select(x => x.SourceId).Distinct().ToList();
+
                     foreach (var ip in ips)
                     {
                         var val = new Result(ip, fileName);
